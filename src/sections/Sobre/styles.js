@@ -19,50 +19,61 @@ export const Content = styled.div`
 
 export const Title = styled.h2`
     font-size: 36px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+
+    &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100px;
+    height: 4px;
+    background-color: ${(props) => props.theme.purple};
+    border-radius: 2px;
+    }
 `;
 
 export const SubTitle = styled.h3`
     font-size: 20px;
     margin-bottom: 2rem;
-    color: #666;
+    color: ${(props) => props.theme.white};
 `;
 export const Description = styled.p`
     font-size: 18px;
     margin-bottom: 1.5rem;
     line-height: 1.6;
-    color: #444;
-`;
-
-export const Button = styled.button`
-    background-color: #4B0082;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-    transition: transform 0.8s ease;
-
-  &:hover {
-    background-color:rgb(30, 3, 49);
-    transform: translateY(-5px);
-  }
+    color: ${(props) => props.theme.gray};
 `;
 
 export const ContainerImage = styled.div`
     flex: 1;
     display: flex;
     justify-content: center;
+    position: relative;
+
+    &::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(75,0,130,0.4), transparent);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
 `;
 
 export const Image = styled.img`
-    width: 100%;
-    max-width: 350px;
-    border-radius: 50%;
-    object-fit: cover;
-    animation: float 3s ease-in-out infinite;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 45%;
+  object-fit: cover;
+  animation: float 3s ease-in-out infinite;
+  box-shadow: 0 0 30px rgba(75, 0, 130, 0.5);
+  border: 4px solid ${(props) => props.theme.purple};
 
     @keyframes float {
     0% {

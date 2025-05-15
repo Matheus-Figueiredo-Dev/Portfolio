@@ -1,6 +1,5 @@
 import foto from '../../assets/foto.png';
 import {
-  Button,
   Container,
   ContainerImage,
   Content,
@@ -36,9 +35,6 @@ export function Sobre() {
           quero fazer parte disso, usando minhas habilidades para ajudar pessoas
           e resolver problemas de forma criativa e eficiente.
         </Description>
-        <a href="/Matheus Figueiredo - Desenvolvedor Full Stack.pdf" download>
-          <Button>Download CV</Button>
-        </a>
       </Content>
 
       <ContainerImage>

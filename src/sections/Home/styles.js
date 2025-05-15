@@ -16,7 +16,7 @@ export const Title = styled.h1`
 	letter-spacing: -2px;
 
     span {
-        color: #4B0082;
+        color: ${(props) => props.theme.purple};
     }
 `;
 
@@ -24,10 +24,10 @@ export const SubTitle = styled.p`
     font-size: 20px;
 	margin-bottom: 30px;
 	max-width: 500px;
-	color: #bbb;
+	color: ${(props) => props.theme.gray};
 `;
 export const Link = styled.a`
-    background-color: #4B0082;
+    background-color: ${(props) => props.theme.purple};
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 8px;
@@ -38,7 +38,7 @@ export const Link = styled.a`
     transition: transform 0.8s ease;
 
   &:hover {
-    background-color:#1E0331;
+    background-color: ${(props) => props.theme.darkPurple};
     transform: translateY(-5px);
   }
 `;
