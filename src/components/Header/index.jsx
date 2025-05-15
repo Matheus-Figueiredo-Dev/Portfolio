@@ -1,4 +1,13 @@
-import { HeaderContainer, Menu, MenuItem, Nav } from './styles';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import {
+  Button,
+  ContainerMenu,
+  HeaderContainer,
+  Link,
+  Menu,
+  MenuItem,
+  Nav,
+} from './styles';
 
 export function Header() {
   return (
@@ -11,6 +20,17 @@ export function Header() {
           <MenuItem>Projetos</MenuItem>
           <MenuItem>Contato</MenuItem>
         </Menu>
+        <ContainerMenu>
+          <a href="/Matheus Figueiredo - Desenvolvedor Full Stack.pdf" download>
+            <Button>Download CV</Button>
+          </a>
+          <Link href="https://github.com/Matheus-Figueiredo-Dev">
+            <FaGithub />
+          </Link>
+          <Link href="https://www.linkedin.com/in/matheus-figueiredo-santos/">
+            <FaLinkedin />
+          </Link>
+        </ContainerMenu>
       </Nav>
     </HeaderContainer>
   );

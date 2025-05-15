@@ -7,7 +7,7 @@ export const Container = styled.div`
   color: #aaa;
   text-align: center;
   font-size: 0.9rem;
-  border-top: 1px solid #4B0082;
+  border-top: 1px solid ${(props) => props.theme.purple};
   margin-top: 4rem;
 
   p {

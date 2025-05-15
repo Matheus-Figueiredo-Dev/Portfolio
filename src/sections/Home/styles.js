@@ -38,7 +38,7 @@ export const Link = styled.a`
     transition: transform 0.8s ease;
 
   &:hover {
-    background-color:rgb(30, 3, 49);
+    background-color:#1E0331;
     transform: translateY(-5px);
   }
 `;
