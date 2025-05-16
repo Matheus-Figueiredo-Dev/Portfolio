@@ -14,11 +14,11 @@ export function Header() {
     <HeaderContainer>
       <Nav>
         <Menu>
-          <MenuItem>Home</MenuItem>
-          <MenuItem>Sobre</MenuItem>
-          <MenuItem>Habilidades</MenuItem>
-          <MenuItem>Projetos</MenuItem>
-          <MenuItem>Contato</MenuItem>
+          <MenuItem href="#home">Home</MenuItem>
+          <MenuItem href="#sobre">Sobre</MenuItem>
+          <MenuItem href="#habilidades">Habilidades</MenuItem>
+          <MenuItem href="#projetos">Projetos</MenuItem>
+          <MenuItem href="#contato">Contato</MenuItem>
         </Menu>
         <ContainerMenu>
           <a href="/Matheus Figueiredo - Desenvolvedor Full Stack.pdf" download>

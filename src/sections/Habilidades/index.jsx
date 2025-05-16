@@ -16,7 +16,7 @@ import { Container, SkillsGrid, Title } from './styles';
 
 export function Habilidades() {
   return (
-    <Container>
+    <Container id="habilidades">
       <Title>Habilidades</Title>
       <SkillsGrid>
         <span>

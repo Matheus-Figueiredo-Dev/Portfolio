@@ -11,7 +11,7 @@ import {
 
 export function Sobre() {
   return (
-    <Container>
+    <Container id="sobre">
       <Content>
         <Title>Quem Sou Eu?</Title>
         <SubTitle>

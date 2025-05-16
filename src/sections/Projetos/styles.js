@@ -76,10 +76,7 @@ export const Link = styled.a`
   transition: background-color 0.3s;
 
   &:hover {
-    opacity: 0.8;
-  }
-
-  &:active {
-    opacity: 0.6;
+    color: ${(props) => props.theme.white};
+    background-color: ${(props) => props.theme.purple};
   }
 `;

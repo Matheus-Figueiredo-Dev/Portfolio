@@ -35,10 +35,11 @@ export const ContainerMenu = styled.div`
     justify-content: flex end;
 `;
 
-export const MenuItem = styled.li`
+export const MenuItem = styled.a`
     cursor: pointer;
     font-weight: bold;
     color: ${(props) => props.theme.white};
+    text-decoration: none;
     transition: transform 0.8s ease;
 
    &:hover {

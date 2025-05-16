@@ -2,7 +2,7 @@ import { Link, Main, SubTitle, Title } from './styles';
 
 export function Home() {
   return (
-    <Main>
+    <Main id="home">
       <Title>
         Olá, eu sou o <span>Matheus Figueiredo</span>!
       </Title>

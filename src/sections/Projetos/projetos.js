@@ -19,19 +19,19 @@ export const projetos = [
   },
   {
     id: 2,
-    title: 'Conversor de Moedas',
-    image: conversor,
-    description:
-      'Aplicação que converte valores entre diferentes moedas com dados atualizados em tempo real!',
-    link: 'https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/',
-  },
-  {
-    id: 3,
     title: 'Irmãos Mario',
     image: mario,
     description:
       'Portfólio fictício de serviços de encanamento, com foco em apresentação profissional e contato!',
     link: 'https://matheus-figueiredo-dev.github.io/Irmaos-Mario/',
+  },
+  {
+    id: 3,
+    title: 'Conversor de Moedas',
+    image: conversor,
+    description:
+      'Aplicação que converte valores entre diferentes moedas com dados atualizados em tempo real!',
+    link: 'https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/',
   },
   {
     id: 4,

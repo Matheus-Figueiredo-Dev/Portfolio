@@ -11,14 +11,24 @@ const GlobalStyles = createGlobalStyle`
         font-style: normal;
     }
 
-    button, a {
-        cursor: pointer;
-    }
-
     body {
-        background-color: ${(props) => props.theme.black};
         color: ${(props) => props.theme.white};
-    }
+        background: linear-gradient(-45deg, ${(props) => props.theme.darkPurple},${(props) => props.theme.black}, ${(props) => props.theme.darkPurple},${(props) => props.theme.black});
+        background-size: 400% 400%;
+        animation: gradientBackground 15s ease infinite;
+
+        @keyframes gradientBackground {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+        }
+            }
 `;
 
 export default GlobalStyles;

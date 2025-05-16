@@ -7,6 +7,7 @@ export const Main = styled.main`
     justify-content: center;
     align-items: flex-start;
     padding: 0 2rem;
+    padding-top: 6rem;
 `;
 
 export const Title = styled.h1`
@@ -16,7 +17,7 @@ export const Title = styled.h1`
 	letter-spacing: -2px;
 
     span {
-        color: ${(props) => props.theme.purple};
+        color: ${(props) => props.theme.lightPurple};
     }
 `;
 

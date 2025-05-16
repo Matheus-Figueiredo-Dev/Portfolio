@@ -15,14 +15,32 @@ import {
 
 export function Contato() {
   return (
-    <Container>
+    <Container id="contato">
       <Title>Contato</Title>
       <Content>
         <FormContainer>
-          <Form>
-            <Input type="text" placeholder="Nome" required />
-            <Input type="email" placeholder="E-mail" required />
-            <TextArea placeholder="Escreva sua mensagem" required />
+          <Form
+            action="https://formcarry.com/s/afAFAgVS43Q"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <Input
+              type="text"
+              placeholder="Digite seu nome"
+              required
+              name="nome"
+            />
+            <Input
+              type="email"
+              placeholder="Digite seu e-mail"
+              required
+              name="email"
+            />
+            <TextArea
+              placeholder="Escreva sua mensagem"
+              required
+              name="mensagem"
+            />
             <Button type="submit">Enviar</Button>
           </Form>
         </FormContainer>
