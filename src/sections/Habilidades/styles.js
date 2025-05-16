@@ -51,7 +51,8 @@ export const SkillsGrid = styled.div`
     
     &:hover {
         transform: translateY(-5px);
-        background-color: ${(props) => props.theme.darkPurple};
+        background-color: ${(props) => props.theme.white};
+        color: ${(props) => props.theme.purple};
     }
   }
 `;
