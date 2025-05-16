@@ -8,6 +8,7 @@ export const Container = styled.div`
 
 export const Title = styled.h2`
   font-size: 48px;
+  font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
   position: relative;
@@ -85,10 +86,9 @@ export const InfoContainer = styled.div`
   gap: 1rem;
 
     p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 1rem;
-    font-weight: 500;
     color: ${(props) => props.theme.gray};
   }
 `;
@@ -103,7 +103,7 @@ export const IconLink = styled.a`
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   color: ${(props) => props.theme.white};
 

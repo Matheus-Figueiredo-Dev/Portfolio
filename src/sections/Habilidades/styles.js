@@ -7,7 +7,8 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: bold;
     margin-bottom: 40px;
     color: ${(props) => props.theme.white};
     position: relative;
@@ -19,7 +20,7 @@ export const Title = styled.h2`
     left: 50%;
     bottom: -8px;
     transform: translateX(-50%);
-    width: 120px;
+    width: 150px;
     height: 4px;
     background-color: ${(props) => props.theme.purple};
     border-radius: 2px;

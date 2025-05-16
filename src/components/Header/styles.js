@@ -5,7 +5,6 @@ export const HeaderContainer = styled.header`
     font-size: 25px;
     display: flex;
     justify-content: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-bottom: 1px solid ${(props) => props.theme.purple};
     background-color: ${(props) => props.theme.secondBlack};
     width: 100%;
@@ -57,6 +56,7 @@ export const Button = styled.button`
     font-size: 16px;
     transition: background-color 0.3s ease;
     transition: transform 0.8s ease;
+    cursor: pointer;
 
   &:hover {
     background-color: ${(props) => props.theme.darkPurple};
@@ -67,9 +67,10 @@ export const Button = styled.button`
 export const Link = styled.a`
     font-size: 40px;
     transition: transform 0.8s ease;
+    color: ${(props) => props.theme.white};
 
    &:hover {
     transform: translateY(-5px);
-    color: ${(props) => props.theme.darkPurple};
+    color: ${(props) => props.theme.purple};
   }
 `;

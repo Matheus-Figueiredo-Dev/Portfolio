@@ -6,7 +6,8 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: bold;
     color: ${(props) => props.theme.white};
     position: relative;
     display: inline-block;
@@ -17,7 +18,7 @@ export const Title = styled.h2`
     left: 50%;
     bottom: -8px;
     transform: translateX(-50%);
-    width: 150px;
+    width: 170px;
     height: 4px;
     background-color: ${(props) => props.theme.purple};
     border-radius: 2px;
@@ -40,14 +41,12 @@ export const Content = styled.div`
   border: 1px solid ${(props) => props.theme.purple};
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   max-width: 400px;
   width: 100%;
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   }
 
 `;

@@ -18,7 +18,8 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h2`
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: bold;
     margin-bottom: 3rem;
     position: relative;
 
@@ -27,7 +28,7 @@ export const Title = styled.h2`
     position: absolute;
     left: 0;
     bottom: -8px;
-    width: 100px;
+    width: 150px;
     height: 4px;
     background-color: ${(props) => props.theme.purple};
     border-radius: 2px;

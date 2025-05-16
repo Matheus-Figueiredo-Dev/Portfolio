@@ -29,7 +29,7 @@ export const SubTitle = styled.p`
 `;
 export const Link = styled.a`
     background-color: ${(props) => props.theme.purple};
-    color: white;
+    color: ${(props) => props.theme.white};
     padding: 0.8rem 1.5rem;
     border-radius: 8px;
     font-weight: bold;
@@ -39,7 +39,8 @@ export const Link = styled.a`
     transition: transform 0.8s ease;
 
   &:hover {
-    background-color: ${(props) => props.theme.darkPurple};
+    background-color: ${(props) => props.theme.white};
+    color: ${(props) => props.theme.purple};
     transform: translateY(-5px);
   }
 `;
