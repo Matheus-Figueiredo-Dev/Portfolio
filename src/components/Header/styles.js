@@ -7,6 +7,10 @@ export const HeaderContainer = styled.header`
     justify-content: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-bottom: 1px solid ${(props) => props.theme.purple};
+    background-color: ${(props) => props.theme.secondBlack};
+    width: 100%;
+    position: fixed;
+    z-index: 99;
 `;
 
 export const Nav = styled.nav`
@@ -44,7 +48,7 @@ export const MenuItem = styled.li`
 `;
 export const Button = styled.button`
     background-color: ${(props) => props.theme.purple};
-    color: white;
+    color: ${(props) => props.theme.white};
     padding: 0.8rem 1.5rem;
     border: none;
     border-radius: 8px;

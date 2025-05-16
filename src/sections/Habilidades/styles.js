@@ -6,7 +6,7 @@ export const Container = styled.div`
     text-align: center;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
     font-size: 36px;
     margin-bottom: 40px;
     color: ${(props) => props.theme.white};
