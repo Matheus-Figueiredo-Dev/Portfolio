@@ -22,7 +22,7 @@ export function Contato() {
           <Form
             action="https://formcarry.com/s/afAFAgVS43Q"
             method="POST"
-            enctype="multipart/form-data"
+            encType="multipart/form-data"
           >
             <Input
               type="text"
