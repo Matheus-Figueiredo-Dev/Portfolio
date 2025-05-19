@@ -54,6 +54,8 @@ export const Button = styled.button`
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
+    text-decoration: none;
+    height: 48px;
     transition: background-color 0.3s ease;
     transition: transform 0.8s ease;
     cursor: pointer;

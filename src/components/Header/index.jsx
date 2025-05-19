@@ -21,9 +21,13 @@ export function Header() {
           <MenuItem href="#contato">Contato</MenuItem>
         </Menu>
         <ContainerMenu>
-          <a href="/Matheus Figueiredo - Desenvolvedor Full Stack.pdf" download>
-            <Button>Download CV</Button>
-          </a>
+          <Button
+            as="a"
+            href="/Matheus-Figueiredo-Desenvolvedor-Full-Stack.pdf"
+            download
+          >
+            Download CV
+          </Button>
           <Link href="https://github.com/Matheus-Figueiredo-Dev">
             <FaGithub />
           </Link>
