@@ -1,4 +1,4 @@
-Bem-vindo ao meu portfolio pessoal! Aqui você encontra meus projetos, habilidades e informações para contato.
+Bem-vindo(a) ao meu portfolio pessoal! Aqui você encontra meus projetos, habilidades e informações para contato.
 
 🚀 Sobre o projeto
 Este é um portfolio moderno e responsivo, feito para apresentar meu trabalho como Desenvolvedor Full Stack. O site conta com temas claro e escuro, navegação fluida e um formulário de contato funcional.
