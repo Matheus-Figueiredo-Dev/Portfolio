@@ -1,12 +1,17 @@
-# React + Vite
+Bem-vindo ao meu portfolio pessoal! Aqui você encontra meus projetos, habilidades e informações para contato.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Sobre o projeto
+Este é um portfolio moderno e responsivo, feito para apresentar meu trabalho como Desenvolvedor Full Stack. O site conta com temas claro e escuro, navegação fluida e um formulário de contato funcional.
 
-Currently, two official plugins are available:
+💻 Tecnologias usadas
+- React.js;
+- Styled-Components;
+- React Icons;
+- Formcarry (para o formulário de contato);
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deploy via GitHub Pages https://matheus-figueiredo-dev.github.io/Portfolio/
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📞 Contato
+Fique à vontade para entrar em contato comigo através do formulário no site, ou por:
+- LinkedIn https: //www.linkedin.com/in/matheus-figueiredo-santos/
+- WhatsApp: +55 (11) 91325-6019
