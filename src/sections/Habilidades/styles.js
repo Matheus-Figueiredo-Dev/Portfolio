@@ -47,7 +47,7 @@ export const SkillsGrid = styled.div`
     border-radius: 8px;
     font-weight: bold;
     font-size: 24px;
-    transition: transform 0.3s, background-color 0.3s;
+    transition: transform 0.8s ease;
     
     &:hover {
         transform: translateY(-5px);

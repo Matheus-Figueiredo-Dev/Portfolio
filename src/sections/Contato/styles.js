@@ -70,11 +70,12 @@ export const Button = styled.button`
   border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: transform 0.8s ease;
   cursor: pointer;
 
   &:hover {
     background-color: ${(props) => props.theme.darkPurple};
+    transform: translateY(-5px);
   }
 `;
 
@@ -106,8 +107,10 @@ export const IconLink = styled.a`
   font-size: 22px;
   font-weight: 500;
   color: ${(props) => props.theme.white};
+  transition: transform 0.8s ease;
 
   &:hover {
-    color: ${(props) => props.theme.purple};
+    color: ${(props) => props.theme.lightPurple};
+    transform: translateY(-5px);
   }
 `;
