@@ -10,6 +10,10 @@ export const HeaderContainer = styled.header`
     width: 100%;
     position: fixed;
     z-index: 99;
+
+    @media (max-width: 768px) {
+        display: none;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -32,6 +36,13 @@ export const ContainerMenu = styled.div`
     display: flex;
     gap: 2rem;
     justify-content: flex end;
+
+    @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 0;
+  }
 `;
 
 export const MenuItem = styled.a`

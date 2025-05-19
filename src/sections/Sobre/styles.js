@@ -33,6 +33,13 @@ export const Title = styled.h2`
     background-color: ${(props) => props.theme.purple};
     border-radius: 2px;
     }
+
+    @media (max-width: 768px) {
+      &::after {
+        left: 50%;
+        transform: translateX(-50%);
+        }
+    }
 `;
 
 export const SubTitle = styled.h3`

@@ -8,6 +8,13 @@ export const Main = styled.main`
     align-items: flex-start;
     padding: 0 2rem;
     padding-top: 6rem;
+
+    @media (max-width: 768px) {
+        padding-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 `;
 
 export const Title = styled.h1`
@@ -19,6 +26,10 @@ export const Title = styled.h1`
     span {
         color: ${(props) => props.theme.lightPurple};
     }
+
+    @media (max-width: 768px) {
+       text-align: center;
+    }
 `;
 
 export const SubTitle = styled.p`
@@ -26,6 +37,10 @@ export const SubTitle = styled.p`
 	margin-bottom: 30px;
 	max-width: 500px;
 	color: ${(props) => props.theme.gray};
+
+    @media (max-width: 768px) {
+       text-align: center;
+    }
 `;
 export const Link = styled.a`
     background-color: ${(props) => props.theme.purple};

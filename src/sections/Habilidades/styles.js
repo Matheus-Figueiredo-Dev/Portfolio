@@ -33,7 +33,6 @@ export const SkillsGrid = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   max-width: 900px;
   margin: 0 auto;
-  height: 200px;
 
   span {
     background-color: ${(props) => props.theme.purple};

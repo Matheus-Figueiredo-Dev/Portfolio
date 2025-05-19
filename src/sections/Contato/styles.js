@@ -92,11 +92,27 @@ export const InfoContainer = styled.div`
     margin-bottom: 1rem;
     color: ${(props) => props.theme.gray};
   }
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const InfoItem = styled.div`
   display: flex;
   align-items: center;
+`;
+
+export const IconsRow = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+    @media (max-width: 768px) {
+    flex-direction: row;
+    gap: 2rem;
+  }
 `;
 
 export const IconLink = styled.a`
