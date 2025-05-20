@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {
+  Button,
   ContainerMenu,
   HeaderContainer,
   Link,
@@ -20,6 +21,9 @@ export function Header() {
           <MenuItem href="#contato">Contato</MenuItem>
         </Menu>
         <ContainerMenu>
+          <a href="https://drive.google.com/file/d/1SCnLUV7S3pmIP0HlIaDyS589eUy97X6P/view?usp=drive_link">
+            <Button>Download CV</Button>
+          </a>
           <Link href="https://github.com/Matheus-Figueiredo-Dev">
             <FaGithub />
           </Link>
