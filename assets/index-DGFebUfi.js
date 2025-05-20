@@ -135,7 +135,7 @@ Error generating stack: `+l.message+`
     transform: translateY(-5px);
     color: ${i=>i.theme.purple};
   }
-`;function Sh(){return D.jsx(vh,{children:D.jsxs(yh,{children:[D.jsxs(gh,{children:[D.jsx(Ju,{href:"#home",children:"Home"}),D.jsx(Ju,{href:"#sobre",children:"Sobre"}),D.jsx(Ju,{href:"#habilidades",children:"Habilidades"}),D.jsx(Ju,{href:"#projetos",children:"Projetos"}),D.jsx(Ju,{href:"#contato",children:"Contato"})]}),D.jsxs(ph,{children:[D.jsx("a",{href:"https://drive.google.com/file/d/1SCnLUV7S3pmIP0HlIaDyS589eUy97X6P/view?usp=drive_link",children:D.jsx(bh,{children:"CV - Matheus"})}),D.jsx(G0,{href:"https://github.com/Matheus-Figueiredo-Dev",children:D.jsx(y2,{})}),D.jsx(G0,{href:"https://www.linkedin.com/in/matheus-figueiredo-santos/",children:D.jsx(g2,{})})]})]})})}const zh=k.div`
+`;function Sh(){return D.jsx(vh,{children:D.jsxs(yh,{children:[D.jsxs(gh,{children:[D.jsx(Ju,{href:"#home",children:"Home"}),D.jsx(Ju,{href:"#sobre",children:"Sobre"}),D.jsx(Ju,{href:"#habilidades",children:"Habilidades"}),D.jsx(Ju,{href:"#projetos",children:"Projetos"}),D.jsx(Ju,{href:"#contato",children:"Contato"})]}),D.jsxs(ph,{children:[D.jsx("a",{href:"https://drive.google.com/uc?export=download&id=1SCnLUV7S3pmIP0HlIaDyS589eUy97X6P",children:D.jsx(bh,{children:"Download CV"})}),D.jsx(G0,{href:"https://github.com/Matheus-Figueiredo-Dev",children:D.jsx(y2,{})}),D.jsx(G0,{href:"https://www.linkedin.com/in/matheus-figueiredo-santos/",children:D.jsx(g2,{})})]})]})})}const zh=k.div`
   padding: 4rem 2rem;
   background-color: ${i=>i.theme.secondBlack};
   color: ${i=>i.theme.white};
