@@ -22,7 +22,7 @@ export function Header() {
         </Menu>
         <ContainerMenu>
           <a href="https://drive.google.com/file/d/1SCnLUV7S3pmIP0HlIaDyS589eUy97X6P/view?usp=drive_link">
-            <Button>Download CV</Button>
+            <Button>CV - Matheus</Button>
           </a>
           <Link href="https://github.com/Matheus-Figueiredo-Dev">
             <FaGithub />
