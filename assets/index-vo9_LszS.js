@@ -345,11 +345,11 @@ Error generating stack: `+l.message+`
     color: ${i=>i.theme.purple};
     transform: translateY(-5px);
   }
-`;function Lh(){return D.jsxs(Gh,{id:"home",children:[D.jsxs(Xh,{children:["Olá, eu sou o ",D.jsx("span",{children:"Matheus Figueiredo"}),"!"]}),D.jsx(Qh,{children:"Desenvolvedor web focado em soluções inteligentes e interfaces modernas"}),D.jsx(Zh,{href:"#projetos",children:"Ver projetos"})]})}const wh="/Portfolio/assets/buscador-de-contatos-CDfS-SKD.png",Vh="/Portfolio/assets/conversor-de-moedas-BvLsX0j3.png",Kh="/Portfolio/assets/cronometro-DMguBmRU.png",Jh="/Portfolio/assets/devburguer-B8e_OcVz.png",$h="/Portfolio/assets/hamburgueria-D1pbyG8q.png",kh="/Portfolio/assets/irmaos-mario-CLWhrbME.png",Wh="/Portfolio/assets/jokenpo-Casw-sg6.png",Fh="/Portfolio/assets/nike-D3HZIS_s.png",Ph="/Portfolio/assets/sorteador-B73PjMSq.png",Ih=[{id:1,title:"DevBurguer",image:Jh,description:"Sistema completo para uma hamburgueria, com gerenciamento de pedidos, produtos e pagamentos!",link:"https://github.com/Matheus-Figueiredo-Dev/Devburguer-Interface"},{id:2,title:"Irmãos Mario",image:kh,description:"Portfólio fictício de serviços de encanamento, com foco em apresentação profissional e contato!",link:"https://matheus-figueiredo-dev.github.io/Irmaos-Mario/"},{id:3,title:"Conversor de Moedas",image:Vh,description:"Aplicação que converte valores entre diferentes moedas com dados atualizados em tempo real!",link:"https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/"},{id:4,title:"Sorteador",image:Ph,description:"Ferramenta que permite realizar sorteios personalizados de números em intervalos definidos!",link:"https://matheus-figueiredo-dev.github.io/Sorteador/"},{id:5,title:"Jo-Ken-Po",image:Wh,description:"Jogo clássico de Pedra, Papel e Tesoura com interação dinâmica e resultados aleatórios!",link:"https://matheus-figueiredo-dev.github.io/Jo-ken-po/"},{id:6,title:"Buscador de Contatos",image:wh,description:"Ferramenta que permite buscar contatos fictícios de maneira rápida e interativa!",link:"https://matheus-figueiredo-dev.github.io/Buscador-de-Contatos/"},{id:7,title:"Cronômetro",image:Kh,description:"Aplicação simples para cronometrar o tempo com start, pause e reset!",link:"https://matheus-figueiredo-dev.github.io/Cronometro/"},{id:8,title:"Hamburgueria",image:$h,description:"Simula o menu de uma hamburgueria, com funcionalidades como listagem e aplicação de desconto!",link:"https://matheus-figueiredo-dev.github.io/Hamburgueria/"},{id:9,title:"Nike",image:Fh,description:"Landing page que simula a página inicial de um site de tênis da Nike, com foco em design e estruturação de conteúdo!",link:"https://matheus-figueiredo-dev.github.io/Nike/"}],t5=k.div`
+`;function Lh(){return D.jsxs(Gh,{id:"home",children:[D.jsxs(Xh,{children:["Olá, eu sou o ",D.jsx("span",{children:"Matheus Figueiredo"}),"!"]}),D.jsx(Qh,{children:"Desenvolvedor web focado em soluções inteligentes e interfaces modernas"}),D.jsx(Zh,{href:"#projetos",children:"Ver projetos"})]})}const wh="/Portfolio/assets/buscador-de-contatos-CDfS-SKD.png",Vh="/Portfolio/assets/cadastro-de-usuarios-C0-77zML.png",Kh="/Portfolio/assets/conversor-de-moedas-BvLsX0j3.png",Jh="/Portfolio/assets/cronometro-DMguBmRU.png",$h="/Portfolio/assets/devburguer-B8e_OcVz.png",kh="/Portfolio/assets/hamburgueria-D1pbyG8q.png",Wh="/Portfolio/assets/irmaos-mario-CLWhrbME.png",Fh="/Portfolio/assets/jokenpo-Casw-sg6.png",Ph="/Portfolio/assets/nike-D3HZIS_s.png",Ih="/Portfolio/assets/sorteador-B73PjMSq.png",t5=[{id:1,title:"DevBurguer",image:$h,description:"Sistema completo para uma hamburgueria, com gerenciamento de pedidos, produtos e pagamentos!",link:"https://github.com/Matheus-Figueiredo-Dev/Devburguer-Interface"},{id:2,title:"Cadastro de Usuários",image:Vh,description:"Sistema completo de cadastro de usuários com funcionalidades para criar, editar, listar e excluir perfis de forma eficiente!",link:"https://github.com/Matheus-Figueiredo-Dev/Cadastro-de-Usuarios-Front-end"},{id:3,title:"Irmãos Mario",image:Wh,description:"Portfólio fictício de serviços de encanamento, com foco em apresentação profissional e contato!",link:"https://matheus-figueiredo-dev.github.io/Irmaos-Mario/"},{id:4,title:"Conversor de Moedas",image:Kh,description:"Aplicação que converte valores entre diferentes moedas com dados atualizados em tempo real!",link:"https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/"},{id:5,title:"Sorteador",image:Ih,description:"Ferramenta que permite realizar sorteios personalizados de números em intervalos definidos!",link:"https://matheus-figueiredo-dev.github.io/Sorteador/"},{id:6,title:"Jo-Ken-Po",image:Fh,description:"Jogo clássico de Pedra, Papel e Tesoura com interação dinâmica e resultados aleatórios!",link:"https://matheus-figueiredo-dev.github.io/Jo-ken-po/"},{id:7,title:"Buscador de Contatos",image:wh,description:"Ferramenta que permite buscar contatos fictícios de maneira rápida e interativa!",link:"https://matheus-figueiredo-dev.github.io/Buscador-de-Contatos/"},{id:8,title:"Cronômetro",image:Jh,description:"Aplicação simples para cronometrar o tempo com start, pause e reset!",link:"https://matheus-figueiredo-dev.github.io/Cronometro/"},{id:9,title:"Hamburgueria",image:kh,description:"Simula o menu de uma hamburgueria, com funcionalidades como listagem e aplicação de desconto!",link:"https://matheus-figueiredo-dev.github.io/Hamburgueria/"},{id:10,title:"Nike",image:Ph,description:"Landing page que simula a página inicial de um site de tênis da Nike, com foco em design e estruturação de conteúdo!",link:"https://matheus-figueiredo-dev.github.io/Nike/"}],e5=k.div`
     padding: 60px 20px;
     text-align: center;
     margin-top: 35px;
-`,e5=k.h2`
+`,l5=k.h2`
     font-size: 48px;
     font-weight: bold;
     color: ${i=>i.theme.white};
@@ -367,13 +367,13 @@ Error generating stack: `+l.message+`
     background-color: ${i=>i.theme.purple};
     border-radius: 2px;
     }
-`,l5=k.div`
+`,a5=k.div`
   padding: 4rem 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   justify-items: center;
-`,a5=k.div`
+`,u5=k.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -389,16 +389,16 @@ Error generating stack: `+l.message+`
     transform: translateY(-5px);
   }
 
-`,u5=k.img`
+`,n5=k.img`
   width: 100%;
   height: auto;
   object-fit: cover;
-`,n5=k.p`
+`,i5=k.p`
   padding: 1rem;
   color: ${i=>i.theme.gray};
   font-size: 1rem;
 
-`,i5=k.a`
+`,c5=k.a`
   display: block;
   text-align: center;
   padding: 1rem;
@@ -412,7 +412,7 @@ Error generating stack: `+l.message+`
     color: ${i=>i.theme.white};
     background-color: ${i=>i.theme.purple};
   }
-`;function c5(){return D.jsxs(t5,{id:"projetos",children:[D.jsx(e5,{children:"Meus Projetos"}),D.jsx(l5,{children:Ih.map(i=>D.jsxs(a5,{children:[D.jsx(u5,{src:i.image,alt:`Imagem do projeto ${i.title}`}),D.jsx(n5,{children:i.description}),D.jsx(i5,{href:i.link,children:"Ver Projeto →"})]},i.id))})]})}const f5="/Portfolio/assets/foto-rSCUJ_Ea.png",r5=k.section`
+`;function f5(){return D.jsxs(e5,{id:"projetos",children:[D.jsx(l5,{children:"Meus Projetos"}),D.jsx(a5,{children:t5.map(i=>D.jsxs(u5,{children:[D.jsx(n5,{src:i.image,alt:`Imagem do projeto ${i.title}`}),D.jsx(i5,{children:i.description}),D.jsx(c5,{href:i.link,children:"Ver Projeto →"})]},i.id))})]})}const r5="/Portfolio/assets/foto-rSCUJ_Ea.png",o5=k.section`
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -423,9 +423,9 @@ Error generating stack: `+l.message+`
     flex-direction: column;
     text-align: center;
   }
-`,o5=k.div`
+`,s5=k.div`
     flex: 1;
-`,s5=k.h2`
+`,d5=k.h2`
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 3rem;
@@ -448,7 +448,7 @@ Error generating stack: `+l.message+`
         transform: translateX(-50%);
         }
     }
-`,d5=k.h3`
+`,h5=k.h3`
     font-size: 20px;
     margin-bottom: 2rem;
     color: ${i=>i.theme.white};
@@ -457,7 +457,7 @@ Error generating stack: `+l.message+`
     margin-bottom: 1.5rem;
     line-height: 1.6;
     color: ${i=>i.theme.gray};
-`,h5=k.div`
+`,m5=k.div`
     flex: 1;
     display: flex;
     justify-content: center;
@@ -475,7 +475,7 @@ Error generating stack: `+l.message+`
     transform: translate(-50%, -50%);
     z-index: 0;
   }
-`,m5=k.img`
+`,v5=k.img`
   width: 100%;
   max-width: 350px;
   border-radius: 45%;
@@ -495,7 +495,7 @@ Error generating stack: `+l.message+`
       transform: translateY(0px);
     }
   }
-`;function v5(){return D.jsxs(r5,{id:"sobre",children:[D.jsxs(o5,{children:[D.jsx(s5,{children:"Quem Sou Eu?"}),D.jsx(d5,{children:"Desenvolvedor com paixão por criar soluções digitais"}),D.jsx(Q0,{children:"Olá! Meu nome é Matheus Figueiredo, sou um desenvolvedor web em transição de carreira, vindo da área de suporte técnico. Sempre fui apaixonado por tecnologia e, nos últimos tempos, descobri na programação uma forma de unir criatividade com lógica para construir soluções úteis e funcionais. Gosto de escrever código limpo, valorizo a organização e me esforço para entregar interfaces responsivas, com boa usabilidade e uma ótima experiência para o usuário."}),D.jsx(Q0,{children:"Tenho facilidade em trabalhar em equipe, sou curioso, dedicado e sempre busco aprender algo novo com cada desafio. Meu objetivo é ingressar na área de desenvolvimento, contribuir com projetos reais e crescer junto com profissionais que compartilham da mesma vontade de evoluir. Acredito que a tecnologia tem o poder de transformar vidas, e quero fazer parte disso, usando minhas habilidades para ajudar pessoas e resolver problemas de forma criativa e eficiente."})]}),D.jsx(h5,{children:D.jsx(m5,{src:f5,alt:"Foto do Matheus Figueiredo"})})]})}function y5(){return D.jsxs(D.Fragment,{children:[D.jsx(Sh,{}),D.jsx(Lh,{}),D.jsx(v5,{}),D.jsx(Yh,{}),D.jsx(c5,{}),D.jsx(Rh,{}),D.jsx(th,{})]})}const g5=P4`
+`;function y5(){return D.jsxs(o5,{id:"sobre",children:[D.jsxs(s5,{children:[D.jsx(d5,{children:"Quem Sou Eu?"}),D.jsx(h5,{children:"Desenvolvedor com paixão por criar soluções digitais"}),D.jsx(Q0,{children:"Olá! Meu nome é Matheus Figueiredo, sou um desenvolvedor web em transição de carreira, vindo da área de suporte técnico. Sempre fui apaixonado por tecnologia e, nos últimos tempos, descobri na programação uma forma de unir criatividade com lógica para construir soluções úteis e funcionais. Gosto de escrever código limpo, valorizo a organização e me esforço para entregar interfaces responsivas, com boa usabilidade e uma ótima experiência para o usuário."}),D.jsx(Q0,{children:"Tenho facilidade em trabalhar em equipe, sou curioso, dedicado e sempre busco aprender algo novo com cada desafio. Meu objetivo é ingressar na área de desenvolvimento, contribuir com projetos reais e crescer junto com profissionais que compartilham da mesma vontade de evoluir. Acredito que a tecnologia tem o poder de transformar vidas, e quero fazer parte disso, usando minhas habilidades para ajudar pessoas e resolver problemas de forma criativa e eficiente."})]}),D.jsx(m5,{children:D.jsx(v5,{src:r5,alt:"Foto do Matheus Figueiredo"})})]})}function g5(){return D.jsxs(D.Fragment,{children:[D.jsx(Sh,{}),D.jsx(Lh,{}),D.jsx(y5,{}),D.jsx(Yh,{}),D.jsx(f5,{}),D.jsx(Rh,{}),D.jsx(th,{})]})}const p5=P4`
     * {
         margin: 0;
         padding: 0;
@@ -524,4 +524,4 @@ Error generating stack: `+l.message+`
         }
         }
             }
-`,p5={black:"#1e1e1e",secondBlack:"#252525",white:"#f0f0f0",gray:"#aaa",purple:"#4B0082",lightPurple:"#663399",darkPurple:"#1E0331"};W3.createRoot(document.getElementById("root")).render(D.jsx(Iu.StrictMode,{children:D.jsxs(k4,{theme:p5,children:[D.jsx(y5,{}),D.jsx(g5,{})]})}));
+`,b5={black:"#1e1e1e",secondBlack:"#252525",white:"#f0f0f0",gray:"#aaa",purple:"#4B0082",lightPurple:"#663399",darkPurple:"#1E0331"};W3.createRoot(document.getElementById("root")).render(D.jsx(Iu.StrictMode,{children:D.jsxs(k4,{theme:b5,children:[D.jsx(g5,{}),D.jsx(p5,{})]})}));
