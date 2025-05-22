@@ -1,4 +1,5 @@
 import buscador from '../../assets/buscador-de-contatos.png';
+import cadastro from '../../assets/cadastro-de-usuarios.png';
 import conversor from '../../assets/conversor-de-moedas.png';
 import cronometro from '../../assets/cronometro.png';
 import devburguer from '../../assets/devburguer.png';
@@ -19,6 +20,14 @@ export const projetos = [
   },
   {
     id: 2,
+    title: 'Cadastro de Usuários',
+    image: cadastro,
+    description:
+      'Sistema completo de cadastro de usuários com funcionalidades para criar, editar, listar e excluir perfis de forma eficiente!',
+    link: 'https://github.com/Matheus-Figueiredo-Dev/Cadastro-de-Usuarios-Front-end',
+  },
+  {
+    id: 3,
     title: 'Irmãos Mario',
     image: mario,
     description:
@@ -26,7 +35,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Irmaos-Mario/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Conversor de Moedas',
     image: conversor,
     description:
@@ -34,7 +43,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Sorteador',
     image: sorteador,
     description:
@@ -42,7 +51,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Sorteador/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Jo-Ken-Po',
     image: jokenpo,
     description:
@@ -50,7 +59,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Jo-ken-po/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Buscador de Contatos',
     image: buscador,
     description:
@@ -58,7 +67,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Buscador-de-Contatos/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Cronômetro',
     image: cronometro,
     description:
@@ -66,7 +75,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Cronometro/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Hamburgueria',
     image: hamburgueria,
     description:
@@ -74,7 +83,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Hamburgueria/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Nike',
     image: nike,
     description:
