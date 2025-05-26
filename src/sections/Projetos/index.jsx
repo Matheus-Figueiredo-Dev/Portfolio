@@ -6,6 +6,7 @@ import {
   Description,
   Image,
   Link,
+  ProjectTitle,
   Title,
 } from './styles';
 
@@ -16,6 +17,7 @@ export function Projetos() {
       <ContainerGrid>
         {projetos.map((projeto) => (
           <Content key={projeto.id}>
+            <ProjectTitle>{projeto.title}</ProjectTitle>
             <Image
               src={projeto.image}
               alt={`Imagem do projeto ${projeto.title}`}

@@ -35,8 +35,8 @@ export const ContainerGrid = styled.div`
 `;
 
 export const Content = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   justify-content: space-between;
   background-color: transparent;
   border: 1px solid ${(props) => props.theme.purple};
@@ -50,6 +50,16 @@ export const Content = styled.div`
     transform: translateY(-5px);
   }
 
+`;
+
+export const ProjectTitle = styled.h3`
+  background-color: ${(props) => props.theme.purple};
+  color: ${(props) => props.theme.white};
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px;
+  margin: 0;
+  bottom: 0;
 `;
 
 export const Image = styled.img`
