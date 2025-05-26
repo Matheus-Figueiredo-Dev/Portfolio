@@ -394,6 +394,7 @@ Error generating stack: `+l.message+`
   color: ${i=>i.theme.white};
   font-weight: bold;
   font-size: 18px;
+  text-align: center;
   padding: 8px;
   margin: 0;
   bottom: 0;
