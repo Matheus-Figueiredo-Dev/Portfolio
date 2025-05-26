@@ -57,6 +57,7 @@ export const ProjectTitle = styled.h3`
   color: ${(props) => props.theme.white};
   font-weight: bold;
   font-size: 18px;
+  text-align: center;
   padding: 8px;
   margin: 0;
   bottom: 0;
