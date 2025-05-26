@@ -1,5 +1,6 @@
 import buscador from '../../assets/buscador-de-contatos.png';
 import cadastro from '../../assets/cadastro-de-usuarios.png';
+import cafeteria from '../../assets/cafeteria.png';
 import conversor from '../../assets/conversor-de-moedas.png';
 import cronometro from '../../assets/cronometro.png';
 import devburguer from '../../assets/devburguer.png';
@@ -89,5 +90,13 @@ export const projetos = [
     description:
       'Landing page que simula a página inicial de um site de tênis da Nike, com foco em design e estruturação de conteúdo!',
     link: 'https://matheus-figueiredo-dev.github.io/Nike/',
+  },
+  {
+    id: 11,
+    title: 'Dev-Cafe',
+    image: cafeteria,
+    description:
+      'Landing page responsiva para uma cafeteria fictícia, com animações AOS e layout moderno desenvolvido em HTML, CSS e JavaScript!',
+    link: 'https://matheus-figueiredo-dev.github.io/Dev-cafe/',
   },
 ];
