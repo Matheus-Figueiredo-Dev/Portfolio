@@ -4,6 +4,7 @@ import cafeteria from '../../assets/cafeteria.png';
 import conversor from '../../assets/conversor-de-moedas.png';
 import cronometro from '../../assets/cronometro.png';
 import devburguer from '../../assets/devburguer.png';
+import gerenciador from '../../assets/gerenciador-de-tarefas.png';
 import hamburgueria from '../../assets/hamburgueria.png';
 import mario from '../../assets/irmaos-mario.png';
 import jokenpo from '../../assets/jokenpo.png';
@@ -29,6 +30,14 @@ export const projetos = [
   },
   {
     id: 3,
+    title: 'Gerenciador de Tarefas',
+    image: gerenciador,
+    description:
+      'Sistema completo de gerenciamento de tarefas com funcionalidades para criar, editar, listar e excluir atividades de forma prática e integrada!',
+    link: 'https://github.com/Matheus-Figueiredo-Dev/Todo-Interface',
+  },
+  {
+    id: 4,
     title: 'Irmãos Mario',
     image: mario,
     description:
@@ -36,7 +45,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Irmaos-Mario/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Conversor de Moedas',
     image: conversor,
     description:
@@ -44,7 +53,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Sorteador',
     image: sorteador,
     description:
@@ -52,7 +61,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Sorteador/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Jo-Ken-Po',
     image: jokenpo,
     description:
@@ -60,7 +69,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Jo-ken-po/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Buscador de Contatos',
     image: buscador,
     description:
@@ -68,7 +77,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Buscador-de-Contatos/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Cronômetro',
     image: cronometro,
     description:
@@ -76,7 +85,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Cronometro/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Hamburgueria',
     image: hamburgueria,
     description:
@@ -84,7 +93,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Hamburgueria/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Nike',
     image: nike,
     description:
@@ -92,7 +101,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Nike/',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Dev-Cafe',
     image: cafeteria,
     description:
