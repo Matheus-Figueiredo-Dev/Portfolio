@@ -53,7 +53,7 @@ export const Content = styled.div`
 `;
 
 export const ProjectTitle = styled.h3`
-  background-color: ${(props) => props.theme.purple};
+  background-color: transparent;
   color: ${(props) => props.theme.white};
   font-weight: bold;
   font-size: 18px;

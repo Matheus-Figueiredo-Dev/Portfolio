@@ -2,6 +2,7 @@ import buscador from '../../assets/buscador-de-contatos.png';
 import cadastro from '../../assets/cadastro-de-usuarios.png';
 import cafeteria from '../../assets/cafeteria.png';
 import conversor from '../../assets/conversor-de-moedas.png';
+import conversorVoz from '../../assets/conversor-voz.png';
 import cronometro from '../../assets/cronometro.png';
 import devburguer from '../../assets/devburguer.png';
 import gerenciador from '../../assets/gerenciador-de-tarefas.png';
@@ -54,6 +55,13 @@ export const projetos = [
   },
   {
     id: 6,
+    title: 'Conversor de Voz para Texto',
+    image: conversorVoz,
+    description: 'Aplicação que converte arquivo de textos para voz!',
+    link: 'https://matheus-figueiredo-dev.github.io/Conversor-texto-voz/',
+  },
+  {
+    id: 7,
     title: 'Sorteador',
     image: sorteador,
     description:
@@ -61,7 +69,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Sorteador/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Jo-Ken-Po',
     image: jokenpo,
     description:
@@ -69,7 +77,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Jo-ken-po/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Buscador de Contatos',
     image: buscador,
     description:
@@ -77,7 +85,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Buscador-de-Contatos/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Cronômetro',
     image: cronometro,
     description:
@@ -85,7 +93,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Cronometro/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Hamburgueria',
     image: hamburgueria,
     description:
@@ -93,7 +101,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Hamburgueria/',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Nike',
     image: nike,
     description:
@@ -101,7 +109,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Nike/',
   },
   {
-    id: 12,
+    id: 13,
     title: 'Dev-Cafe',
     image: cafeteria,
     description:
