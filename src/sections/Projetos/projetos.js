@@ -1,6 +1,7 @@
 import buscador from '../../assets/buscador-de-contatos.png';
 import cadastro from '../../assets/cadastro-de-usuarios.png';
 import cafeteria from '../../assets/cafeteria.png';
+import chat from '../../assets/chat.png';
 import conversor from '../../assets/conversor-de-moedas.png';
 import conversorVoz from '../../assets/conversor-voz.png';
 import cronometro from '../../assets/cronometro.png';
@@ -39,6 +40,14 @@ export const projetos = [
   },
   {
     id: 4,
+    title: 'Chat Online',
+    image: chat,
+    description:
+      'Chat online em tempo real, permitindo múltiplos usuários com identificação visual por cores aleatórias!',
+    link: 'https://chat-frontend-eeer.onrender.com/',
+  },
+  {
+    id: 5,
     title: 'Irmãos Mario',
     image: mario,
     description:
@@ -46,7 +55,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Irmaos-Mario/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Conversor de Moedas',
     image: conversor,
     description:
@@ -54,14 +63,14 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Conversor-de-Moedas/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Conversor de Voz para Texto',
     image: conversorVoz,
     description: 'Aplicação que converte arquivo de textos para voz!',
     link: 'https://matheus-figueiredo-dev.github.io/Conversor-texto-voz/',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Sorteador',
     image: sorteador,
     description:
@@ -69,7 +78,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Sorteador/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Jo-Ken-Po',
     image: jokenpo,
     description:
@@ -77,7 +86,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Jo-ken-po/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Buscador de Contatos',
     image: buscador,
     description:
@@ -85,7 +94,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Buscador-de-Contatos/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Cronômetro',
     image: cronometro,
     description:
@@ -93,7 +102,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Cronometro/',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Hamburgueria',
     image: hamburgueria,
     description:
@@ -101,7 +110,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Hamburgueria/',
   },
   {
-    id: 12,
+    id: 13,
     title: 'Nike',
     image: nike,
     description:
@@ -109,7 +118,7 @@ export const projetos = [
     link: 'https://matheus-figueiredo-dev.github.io/Nike/',
   },
   {
-    id: 13,
+    id: 14,
     title: 'Dev-Cafe',
     image: cafeteria,
     description:
