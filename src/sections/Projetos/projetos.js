@@ -28,7 +28,7 @@ export const projetos = [
     image: cadastro,
     description:
       'Sistema completo de cadastro de usuários com funcionalidades para criar, editar, listar e excluir perfis de forma eficiente!',
-    link: 'https://github.com/Matheus-Figueiredo-Dev/Cadastro-de-Usuarios-Front-end',
+    link: 'https://cadastro-de-usuarios-front-end.onrender.com/',
   },
   {
     id: 3,
