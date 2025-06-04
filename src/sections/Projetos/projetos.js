@@ -9,6 +9,7 @@ import devburguer from '../../assets/devburguer.png';
 import gerenciador from '../../assets/gerenciador-de-tarefas.png';
 import hamburgueria from '../../assets/hamburgueria.png';
 import mario from '../../assets/irmaos-mario.png';
+import itau from '../../assets/itau.png';
 import jokenpo from '../../assets/jokenpo.png';
 import nike from '../../assets/nike.png';
 import sorteador from '../../assets/sorteador.png';
@@ -124,5 +125,13 @@ export const projetos = [
     description:
       'Landing page responsiva para uma cafeteria fictícia, com animações AOS e layout moderno desenvolvido em HTML, CSS e JavaScript!',
     link: 'https://matheus-figueiredo-dev.github.io/Dev-cafe/',
+  },
+  {
+    id: 15,
+    title: 'Itau',
+    image: itau,
+    description:
+      'Landing page que simula a página inicial do banco Itaú, com foco em design e estruturação de conteúdo!',
+    link: 'https://matheus-figueiredo-dev.github.io/Itau/',
   },
 ];
